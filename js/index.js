@@ -14,7 +14,7 @@ window.onscroll = function () {
 let typed = new Typed ('.type', {
     // Waits 1000ms after typing "First"
     strings: [ 'I\'m a Senior Fullstack  Developer',
-        'Junior Frontend Developer :)' ],
+        'Middle Frontend Developer :)' ],
     startDelay: 3700,
     typeSpeed: 60,
     backSpeed: 60,
