@@ -24,7 +24,7 @@ let typed = new Typed ('.type', {
 
 
 let logo = new Typed ('.welcome', {
-    strings: [ 'Hello! Welcome to my site!' ],
+    strings: [ 'Hello! Welcome to my dev app!' ],
     typeSpeed: 100,
     loop: false,
     showCursor: false,

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="590a5f1e-5289-4da9-8f05-e2af37624daa" name="Default Changelist" comment="fix build for git">
+    <list default="true" id="590a5f1e-5289-4da9-8f05-e2af37624daa" name="Default Changelist" comment="add stages workflow delete custom domain">
       <change beforePath="$PROJECT_DIR$/.github/workflows/deployApp.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deployApp.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +14,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="staging" />
+                    <option name="lastUsedInstant" value="1735126738" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1735126737" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
@@ -74,9 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610556195109</updated>
       <workItem from="1610556196848" duration="680000" />
-      <workItem from="1735124321316" duration="2005000" />
+      <workItem from="1735124321316" duration="2596000" />
     </task>
     <task id="LOCAL-00001" summary="add workflow and build app">
       <option name="closed" value="true" />
@@ -115,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735125364769</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add stages workflow">
+      <option name="closed" value="true" />
+      <created>1735126443224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735126443224</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add stages workflow delete custom domain">
+      <option name="closed" value="true" />
+      <created>1735126649643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735126649643</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +176,8 @@
     </ignored-roots>
     <MESSAGE value="add workflow and build app" />
     <MESSAGE value="fix build for git" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix build for git" />
+    <MESSAGE value="add stages workflow" />
+    <MESSAGE value="add stages workflow delete custom domain" />
+    <option name="LAST_COMMIT_MESSAGE" value="add stages workflow delete custom domain" />
   </component>
 </project>
