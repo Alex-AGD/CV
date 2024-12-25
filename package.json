@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "browser-sync start --server --files 'index.html, css/*.css, js/*.js'",
-    "build": "if not exist dist mkdir dist && xcopy index.html dist /Y && xcopy css dist\\css /E /Y /I && xcopy js dist\\js /E /Y /I && xcopy assets dist\\assets /E /Y /I"
+    "build": "mkdir -p dist && cp index.html dist/ && cp -r css dist/ && cp -r js dist/ && cp -r assets dist/"
   },
   "author": "AlexAGD",
   "license": "ISC",
