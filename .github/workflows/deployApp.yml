@@ -32,7 +32,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          cname: 'production.alex-agd-cv.ru'
 
       - name: Deploy to Staging
         if: github.ref == 'refs/heads/staging'
@@ -40,7 +39,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          cname: 'staging.alex-agd-cv.ru'
 
       - name: Deploy to Development
         if: github.ref == 'refs/heads/development'
@@ -48,4 +46,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          cname: 'development.alex-agd-cv.ru'
