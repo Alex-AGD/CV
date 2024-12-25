@@ -1,12 +1,14 @@
 {
-  "name": "clevertask",
+  "name": "my-cv",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files 'index.html, css/*.css, js/*.js'",
+    "build": "if not exist dist mkdir dist && xcopy index.html dist /Y && xcopy css dist\\css /E /Y /I && xcopy js dist\\js /E /Y /I && xcopy assets dist\\assets /E /Y /I"
   },
-  "author": "",
+  "author": "AlexAGD",
   "license": "ISC",
   "optionalDependencies": {
     "fsevents": "^2.2.1"
